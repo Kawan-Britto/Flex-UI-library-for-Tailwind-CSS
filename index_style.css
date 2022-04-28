@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 400 1rem 'Poppins', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.index_container--header {
+  height: 4.5rem;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 5.5rem;
+  align-items: center;
+}
+.index_container--header--logo {
+  font-family: 'Poppins', sans-serif;
+}
+.index_container--header--navegation {
+
+}
+.index_container--header--navegation--options {
+  list-style-type: none;
+  display: flex;
+  gap: 3rem;
+}
+.index_container--header--register {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+.index_container--header--register--signin {
+  color: #F0FDF4;
+  background-color: #22C55E;
+  border: none;
+  height: 2.25rem;
+  width: 5.375rem;
+  border-radius: 6px;
+}
